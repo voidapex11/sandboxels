@@ -71,30 +71,30 @@ elements.fat_man = {
 elements.left_missile = {
     color: "#4c4e42",
     behavior: [
-        "M2|EX:10|XX",
+        "M2|EX:10|CR:fire%20",
         "M1 AND EX:10|XX|EX:10",
-        "M2|EX:10|XX",
+        "M2|EX:10|CR:fire%20",
     ],
     category:"ammunition",
 },
 elements.right_missile = {
     color: "#4c4e42",
     behavior: [
-        "XX|EX:10|M2",
+        "CR:fire%20|EX:10|M2",
        "EX:10|XX|M1 AND EX:10",
-        "XX|EX:10|M2",
+        "CR:fire%20|EX:10|M2",
     ],
     category:"ammunition",
 },
 elements.up_missile = {
     color: "#4c4e42",
 behavior: [
-    "XX|M1 AND EX:10|M2",
+    "M2|M1 AND EX:10|M2",
    "EX:10|XX|EX:10",
-    "XX|EX:10|M2",
+    "CR:fire%20|EX:10|CR:fire%20",
 ],
-category:"ammunition",}
-
+category:"ammunition",
+}
     elements.cluster_munition = {
     color: "#444444",
     behavior: [
